@@ -1,0 +1,1 @@
+# oci-genai-vectorsearch-hol06
