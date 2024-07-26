@@ -26,10 +26,9 @@ https://hexacluster.ai/postgresql/postgres-for-chat-history-langchain-postgres-p
 ```
 
 ### Oracle DB
-
-```python
 データベースの接続、pdfファイルの埋め込みとロード
 
+```python
 import oracledb
 
 username = "docuser"
