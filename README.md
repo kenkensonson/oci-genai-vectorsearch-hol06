@@ -155,7 +155,7 @@ PostgresChatMessageHistory.create_tables(sync_connection, table_name)
 
 PostgreSQLクライアント(psql)で接続。
 ```sql
-(base) [opc@ol9 ~]$ psql -h 10.0.1.254 -p 5432 -U ksonoda -d postgres
+(base) [opc@ol9 ~]$ psql -h <ip address> -p 5432 -U <user_name> -d <database_name>
 Password for user ksonoda: 
 psql (16.1, server 14.11)
 SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, compression: off)
